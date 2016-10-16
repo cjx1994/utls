@@ -4,14 +4,14 @@ from setuptools import setup, find_packages
 打包的用的setup必须引入，
 """
  
-VERSION = '0.1.1'
+VERSION = '0.1.4'
  
 setup(name='ksyun.tools',
       version=VERSION,
       description="a tiny and smart cli player of douyutv,ximalayad,anmu based on Python",
       long_description='just enjoy',
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
-      keywords='python douyu danmu danmu.fm terminal',
+      keywords='python ksyun tools terminal',
       author='cjxcloud',
       author_email='cjxcloud@163.com',
       url='https://github.com/cjx1994/utls/tree/master/ksyun.tools',
@@ -24,7 +24,7 @@ setup(name='ksyun.tools',
       ],
       entry_points={
         'console_scripts':[
-            'danmu.fm = danmufm.danmu:main'
+            'ksyun.tools = ksyuntools.ksyun:main'
         ]
       },
 )
