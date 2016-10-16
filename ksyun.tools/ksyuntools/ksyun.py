@@ -107,7 +107,7 @@ def main():
     
     #A offline API command
     offline_api_parser = subparsers.add_parser(
-        'online_api',help='online the right api')
+        'offline_api',help='offline the right api')
     offline_api_parser.add_argument(
         'service_name',action='store')
     offline_api_parser.add_argument(
